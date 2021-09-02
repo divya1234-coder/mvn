@@ -26,10 +26,11 @@
     <url>http://34.69.189.164:8081/repository/weekend-release/</url>
     </repository>
     </distributionManagement>
-  <server>
+  
+    </project>
+<server>
     <id>weekend</id>
     <username>admin</username>
     <password>admin123</password>
   </server>
-    </project>
 
