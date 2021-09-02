@@ -19,5 +19,17 @@
   <build>
     <finalName>mypage</finalName>
   </build>
-</project>
+<distributionManagement>
+  <repository>
+    <id>weekend</id>
+    <name>Internal Releases</name>
+    <url>http://34.69.189.164:8081/repository/weekend-release/</url>
+  </repository>
+  <snapshotRepository>
+     <id>maven</id>
+    <name>Internal snapshot</name>
+    <url>http://34.69.189.164:8081/repository/maven-snapshots/>
+  </snapshotRepository>
+    </distributionManagement>
+    </project>
 
